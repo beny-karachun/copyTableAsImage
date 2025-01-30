@@ -13,6 +13,8 @@ function addCopyButtonToTable(table) {
       font-size: 12px;
       z-index: 1000;
       background-color: white;
+      opacity: 0.5; 
+      border-radius: 5px; 
   `;
 
   copyButton.addEventListener('click', () => {
